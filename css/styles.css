@@ -22,7 +22,6 @@
   --background: #f4f4fd;
 
   /* hover text for navigation*/
-
   --focus-button: #404bbf;
 }
 
@@ -32,6 +31,8 @@ body {
   color: var(--main);
 
   font-family: 'Roboto', sans-serif;
+
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -50,7 +51,7 @@ body {
   text-align: center;
 }
 
-/* LOGOTYPE STYLE */
+/* LOGO STYLE */
 .logo {
   color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
@@ -79,8 +80,6 @@ body {
 .nav-links {
   color: inherit;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -93,7 +92,6 @@ body {
 .contacts {
   color: var(--body-text);
 
-  font-size: 16px;
   text-decoration: none;
 }
 
@@ -139,7 +137,6 @@ body {
 
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -158,16 +155,14 @@ body {
   text-transform: capitalize;
 }
 
-.list-title {
+.list-items {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.list-text {
+.item-text {
   color: var(--body-text);
-
-  line-height: 1.5;
 }
 
 /* FON OF SECTION "OUR TEAM" */
@@ -182,15 +177,9 @@ body {
 
 .text-footer {
   color: var(--accent);
-
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* TEXT BEHIND A PICTURE ON THE PORTFOLIO PAGE */
 .text-behind {
   color: var(--background);
-
-  font-size: 16px;
-  line-height: 1.5;
 }
