@@ -32,7 +32,6 @@ body {
 
   font-family: 'Roboto', sans-serif;
 
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -80,6 +79,7 @@ body {
 .nav-links {
   color: inherit;
   font-weight: 600;
+  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -92,6 +92,7 @@ body {
 .contacts {
   color: var(--body-text);
 
+  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -137,6 +138,7 @@ body {
 
   font-weight: 600;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -163,6 +165,8 @@ body {
 
 .item-text {
   color: var(--body-text);
+
+  line-height: 1.5;
 }
 
 /* FON OF SECTION "OUR TEAM" */
@@ -177,9 +181,13 @@ body {
 
 .text-footer {
   color: var(--accent);
+
+  line-height: 1.5;
 }
 
 /* TEXT BEHIND A PICTURE ON THE PORTFOLIO PAGE */
 .text-behind {
   color: var(--background);
+
+  line-height: 1.5;
 }
